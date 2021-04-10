@@ -1,0 +1,32 @@
+.hero {
+  max-width: 1600px;
+  margin: 0 auto;
+  background-color: var(--secondary-back-color);
+  background-image: linear-gradient(
+      rgba(47, 48, 58, 0.4),
+      rgba(47, 48, 58, 0.4)
+    ),
+    url("../images/background-hero.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.advertising-main {
+  padding-top: 200px;
+  padding-bottom: 200px;
+}
+
+.advertising-name {
+  max-width: 696px;
+  height: 120px;
+  margin: 0 auto;
+  margin-bottom: 40px;
+
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.36;
+  letter-spacing: 0.06em;
+  text-align: center;
+  text-transform: uppercase;
+  color: var(--main-color);
+}

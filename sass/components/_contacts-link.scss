@@ -1,0 +1,15 @@
+.contacts-link {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+  color: var(--usually-text-color);
+  display: flex;
+  align-items: center;
+}
+
+.contacts-item {
+  &:not(:last-child) {
+    margin-right: 50px;
+  }
+}
