@@ -1,0 +1,120 @@
+.mobile-menu {
+  position: fixed;
+  top: 0;
+  left: 50%;
+  width: 100vw;
+  z-index: 2;
+  padding: 48px 40px;
+  max-width: 450px;
+  font-weight: $secondary-weight;
+  line-height: 1.18;
+  letter-spacing: 0.02em;
+  background-color: $white;
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
+    0px 2px 1px rgba(0, 0, 0, 0.2);
+  border-radius: 4px;
+  opacity: 0;
+  visibility: hidden;
+  pointer-events: none;
+  transform: translate(-50%);
+  transition: opacity 250ms var(--transition-attribute),
+    visibility 250ms var(--transition-attribute);
+}
+
+.mobile-menu.is-open {
+  opacity: 1;
+  visibility: visible;
+  pointer-events: auto;
+}
+
+.mobile-menu__list {
+  font-size: 40px;
+}
+
+.mobile-menu__item {
+  &:not(:last-child) {
+    margin-bottom: 32px;
+  }
+}
+
+.mobile-menu__link {
+  color: var(--color-content);
+  transition: color 250ms var(--transition-attribute);
+
+  &:hover,
+  &:focus {
+    color: var(--accent-primary);
+  }
+}
+
+.mobile-menu__btn {
+  position: absolute;
+  top: 10px;
+  right: 15px;
+  background-color: transparent;
+  border: transparent;
+  cursor: pointer;
+  transition: fill 250ms var(--transition-attribute);
+
+  &:hover,
+  &:focus {
+    fill: var(--accent-primary);
+  }
+}
+
+// contact-list
+.mobile-menu__contact-list {
+  margin-top: 300px;
+}
+
+.mobile-menu__contact-item {
+  font-size: 24px;
+  line-height: 1.17;
+}
+
+.mobile-menu__contact-link {
+  display: block;
+  color: var(--color-content);
+  font-size: 34px;
+  margin-bottom: 32px;
+  transition: color 250ms var(--transition-attribute);
+
+  &:hover,
+  &:focus {
+    color: var(--accent-primary);
+  }
+}
+
+// social list
+.mobile-menu__social-list {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 64px;
+  font-size: 18px;
+  line-height: 1.22;
+}
+
+.mobile-menu__social-item {
+  padding-right: 10px;
+
+  &:not(:last-child) {
+    border-right: 1px solid rgba(33, 33, 33, 0.2);
+  }
+}
+
+.mobile-menu__social-link {
+  color: var(--accent-primary);
+
+  transition: color 250ms var(--transition-attribute);
+  &:hover,
+  &:focus {
+    color: var(--accent-secondary);
+  }
+}
+
+// tablet
+@media screen and (min-width: 768px) {
+  .mobile-menu {
+    display: none;
+  }
+}

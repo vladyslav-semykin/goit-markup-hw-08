@@ -1,23 +1,43 @@
 :root {
-  --main-font: "Roboto", sans-serif;
-  --secondary-font: "Raleway", sans-serif;
-  --acent-color: #2196f3;
-  --main-color: #ffffff;
-  --btn-back-color: #188ce8;
-  --footer-backgroun-color: #2f303a;
-  --usually-text-color: #757575;
-  --headline-color: #212121;
-  --secondary-back-color: #2f303a;
-  --third-back-color: #f5f4fa;
-  --main-black-color: #000000;
-  --footer-links-color: rgba(255, 255, 255, 0.6);
-  --service-item-color: #eeeeee;
-  --icon-color: #afb1b8;
-  --contacts-color: #757575;
-  --section-pt-mobile: 60px;
-  --section-pb-mobile: 60px;
-  --section-pt-tablet: 60px;
-  --section-pb-tablet: 60px;
-  --section-pt-desktop: 94px;
-  --section-pb-desktop: 94px;
+  --accent-color: #2196f3;
+  --accent-secondary-btn: #188ce8;
+  --border-color: #eeeeee;
+  --icon-border-color: #afb1b8;
+  --color-link: rgba(255, 255, 255, 0.6);
+  --background-dark: #2f303a;
+  --light-gray: #f5f4fa;
+  --border-color-header: #ececec;
+  --color-content: #212121;
+  --main-text-color: #757575;
+
+  --max-width: 1600px;
+  --margin-0: 0 auto;
+  --section-pt: 60px;
+  --section-pb: 60px;
+  --section-pt-hero: 118px;
+  --section-pb-hero: 118px;
+  --desktop-pt: 94px;
+  --desktop-pb: 94px;
+  --desktop-pt-hero: 200px;
+  --desktop-pb-hero: 200px;
+
+  --transition-attribute: cubic-bezier(0.4, 0, 0.2, 1);
 }
+
+//font
+$main-font: "Roboto", sans-serif;
+$main-font-size: 14px;
+
+//font-weight
+$main-weight: 400;
+$secondary-weight: 500;
+$main-title: 700;
+$main-heading: 900;
+
+//letter-spacing
+$main-ls: 0.03em;
+$heading-ls: 0.06em;
+
+//main-colors
+$white: #ffffff;
+$black: #000000;

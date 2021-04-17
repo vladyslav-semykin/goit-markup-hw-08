@@ -1,29 +1,26 @@
-@import "./utils/visually-hidden";
 @import "./utils/variables";
+@import "./utils/visually-hidden";
 
-@import "./base/body";
 @import "./base/common";
 @import "./base/container";
+@import "./base/section";
 
-@import "./components/use-colors";
-@import "./components/location";
-@import "./components/work-title";
-@import "./components/address-list";
-@import "./components/nav-link";
-@import "./components/contacts-link";
-@import "./components/contacts-link-footer";
-@import "./components/modal-btn";
-@import "./components/logo-footer";
+@import "./components/element";
+@import "./components/social";
+@import "./components/logo";
+@import "./components/navigation";
+@import "./components/contact";
+@import "./components/modal";
+@import "./components/nav-filter";
+@import "./components/active-link";
+@import "./components/collection";
+@import "./components/overlay";
+@import "./components/mobile-menu";
 
-@import "./layout/main-header";
-@import "./layout/hero-page-1";
-@import "./layout/about";
+@import "./layout/header";
+@import "./layout/hero";
+@import "./layout/privilege";
 @import "./layout/wawd";
 @import "./layout/team";
-@import "./layout/regular-customers";
-@import "./layout/hero-page-2";
-@import "./layout/services";
+@import "./layout/clients";
 @import "./layout/footer";
-@import "./layout/backdrop";
-@import "./layout/modal";
-@import "./layout/modal-form";
