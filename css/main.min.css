@@ -752,22 +752,22 @@ img {
 .mobile-menu__btn:focus {
   fill: var(--accent-primary);
 }
-.mobile-menu__contakt-list {
+.mobile-menu__contact-list {
   margin-top: 300px;
 }
-.mobile-menu__contakt-item {
+.mobile-menu__contact-item {
   font-size: 24px;
   line-height: 1.17;
 }
-.mobile-menu__contakt-link {
+.mobile-menu__contact-link {
   display: block;
   color: var(--color-content);
   font-size: 34px;
   margin-bottom: 32px;
   transition: color 250ms var(--transition-attribute);
 }
-.mobile-menu__contakt-link:hover,
-.mobile-menu__contakt-link:focus {
+.mobile-menu__contact-link:hover,
+.mobile-menu__contact-link:focus {
   color: var(--accent-primary);
 }
 .mobile-menu__social-list {
