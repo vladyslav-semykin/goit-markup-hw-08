@@ -846,17 +846,49 @@ img {
       url(../images/mobile/bg-hero@2x.jpg);
   }
 }
-.hero-title {
-  color: #fff;
-  max-width: 360px;
-  /* height: 84px; */
-  margin: 0 auto;
-  font-weight: 900;
-  letter-spacing: 0.06em;
-  font-size: 26px;
-  line-height: 1.62;
-  text-align: center;
-  text-transform: uppercase;
+@media screen and (min-width: 480px) {
+  .hero-title {
+    color: #fff;
+    max-width: 360px;
+    /* height: 84px; */
+    margin: 0 auto;
+    font-weight: 900;
+    letter-spacing: 0.06em;
+    font-size: 26px;
+    line-height: 1.62;
+    text-align: center;
+    text-transform: uppercase;
+  }
+}
+@media screen and (min-width: 768px) {
+  .hero-title {
+    color: #fff;
+    width: 360px;
+    /* height: 84px; */
+    margin: 0 auto;
+    font-weight: 900;
+    letter-spacing: 0.06em;
+    font-size: 26px;
+    line-height: 1.62;
+    text-align: center;
+    text-transform: uppercase;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .hero-title {
+    color: #fff;
+    min-width: 696px;
+    height: 120px;
+    left: 452px;
+    top: 280px;
+    margin: 0 auto;
+    font-weight: 900;
+    letter-spacing: 0.06em;
+    font-size: 44px;
+    line-height: 1.36;
+    text-align: center;
+    text-transform: uppercase;
+  }
 }
 .btn-hero {
   display: block;
